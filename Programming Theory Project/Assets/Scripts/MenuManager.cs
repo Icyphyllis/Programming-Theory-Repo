@@ -9,24 +9,11 @@ using UnityEditor;
 
 public class MenuManager : MonoBehaviour
 {
-    public static MenuManager Instance;
-    public string playerName;
     [SerializeField] TMP_InputField nameInput;
-
-    private void Awake()
-    {
-        if (Instance != null)
-        {
-            Destroy(gameObject);
-            return;
-        }
-        Instance = this; 
-        DontDestroyOnLoad(gameObject);
-    }
 
     public void StartGame()
     {
-        Instance.playerName = (nameInput != null && !string.IsNullOrEmpty(nameInput.text)) ? nameInput.text : "Stupid";
+        MainManager.Instance.playerName = (nameInput != null && !string.IsNullOrEmpty(nameInput.text)) ? nameInput.text : "Stupid";
         SceneManager.LoadScene(1);
     }
 

@@ -358,6 +358,7 @@
 "Assets/Scripts/Cube.cs"
 "Assets/Scripts/Cylinder.cs"
 "Assets/Scripts/DisplayName.cs"
+"Assets/Scripts/MainManager.cs"
 "Assets/Scripts/MenuManager.cs"
 "Assets/Scripts/Shape.cs"
 "Assets/Scripts/Sphere.cs"

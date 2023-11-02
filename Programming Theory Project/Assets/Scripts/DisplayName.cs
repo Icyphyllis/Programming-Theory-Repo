@@ -8,7 +8,7 @@ public class DisplayName : MonoBehaviour
     [SerializeField] TMP_Text m_Text;
     void Start()
     {
-        m_Text.text = "Hello " + MenuManager.Instance.playerName;
+        m_Text.text = "Hello " + MainManager.Instance.playerName;
     }
 
 }
