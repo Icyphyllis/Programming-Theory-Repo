@@ -357,6 +357,8 @@
 -analyzer:"E:/Program Files/Unity/2022.3.8f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 "Assets/Scripts/Cube.cs"
 "Assets/Scripts/Cylinder.cs"
+"Assets/Scripts/DisplayName.cs"
+"Assets/Scripts/MenuManager.cs"
 "Assets/Scripts/Shape.cs"
 "Assets/Scripts/Sphere.cs"
 -langversion:9.0
